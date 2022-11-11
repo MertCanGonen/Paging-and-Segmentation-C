@@ -6,15 +6,12 @@ How to run?
 Compile = gcc main.c -o main
     Run = ./main 57707 5800 9128
 
-## executeble dosya olarak /usr/bin/gpasswd kullanmıştım hocam. Bunlar onun segment bilgileri.
+## executeble dosya olarak /usr/bin/gpasswd kullanmıştım. Bunlar onun segment bilgileri.
 
                     mert@mert:~$ size /usr/bin/gpasswd
                     text	   data	    bss	    dec	    hex	filename
                     57707	   5800	   9128	  72635	  11bbb	/usr/bin/gpasswd
 
-
-## Hocam kod üzerinde detaylı anlatımlar commentler içerisinde mevcut. Sizin için daha yararlı olabilir.Ancak aşağıda da çok detaya boğmadan anlayabileceğiniz bir şekilde açıkladım.
-            
         ****ALGORITMA****
 01- argv array'inden gerekle argümanları aldım.
 02- seg0, seg1 ve seg2 ile segmentlerin byte olarak boyutlarını buldum.
